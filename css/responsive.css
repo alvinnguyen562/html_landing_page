@@ -1,0 +1,116 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .contact-img img {
+    width: 235px;
+  }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  .logo,.author-food-img {
+    text-align: center;
+  }
+
+  .header-text h2 {
+    font-size: 60px;
+  }
+  .header-text {
+    padding: 100px 0;
+    padding-top: 150px;
+  }
+
+  .author-food-img {
+    margin-top: 30px;
+  }
+  .mainmenu ul.nav.navbar-nav li {
+    float: left;
+  }
+
+  .contact-img {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .footer-area {
+    font-size: 14px;
+  }
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+  .navbar-header {
+    position: absolute;
+    right: 0;
+    top: -105px;
+  }
+  .header-text h2 {
+    font-size: 35px;
+  }
+  .is-sticky .navbar-header {
+    top: -100px;
+  }
+  .social-links {
+    top: -55px;
+  }
+  .is-sticky .social-links {
+    top: -63px;
+  }
+  .is-sticky .logo img {
+    height: 85px;
+  }
+  .mainmenu {
+    position: relative;
+    padding-right: 0;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .navbar-toggle {
+    float: none;
+    margin: 0;
+    border: 1px solid #fff;
+  }
+  .navbar-toggle .icon-bar {
+    background: #fff;
+  }
+  .mobile-menu-actived .is-sticky .mainmenu ul.nav.navbar-nav li a {
+    padding: 15px;
+  }
+  .mobile-menu-actived ul.nav.navbar-nav {
+    background: #000;
+    text-align: center;
+  }
+
+  .mobile-menu-actived ul.nav.navbar-nav li {
+    display: block;
+  }
+
+  .mobile-menu-actived ul.nav.navbar-nav li a {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+  }
+
+  .mobile-menu-actived.navbar-collapse {
+    box-shadow: 0 0 0 !important;
+    border-top: none !important;
+
+  }
+  .section-padding {
+    padding: 40px 0;
+  }
+  .testimonial-list {
+    font-size: 16px;
+  }
+  .contact-img img {
+    margin-left: 30px;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
